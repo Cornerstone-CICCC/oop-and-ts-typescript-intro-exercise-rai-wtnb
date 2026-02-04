@@ -2,8 +2,8 @@
 //    The function should return the product of the two numbers.
 //    Ensure the parameters and return type are typed.
 
-function multiply(a, b) {
-  
+function multiply(a: number, b: number): number {
+  return a * b;
 }
 
 // Expected output:
